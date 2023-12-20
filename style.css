@@ -1,0 +1,210 @@
+
+
+/*
+Theme Name:AbhisekTheme
+Description:tech,software
+Author:Abhisek
+Version:1
+*/
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+font-family: 'Noto Sans', sans-serif;
+}
+html{
+    margin-top: 0px !important;
+}
+p{
+    margin-bottom: 0px!important;
+}
+.current-menu-item a {
+    color: #1B46C2!important;
+    
+    
+}
+.container{
+    padding: 0 100px 0 100px;
+      
+}
+header{
+    padding: 15px 0px;
+}
+.nav{
+    display: flex;
+    column-gap: 30px;
+}
+.nav li{
+    list-style: none;
+    
+}
+.nav li a:hover{
+    color: #1B46C2 !important;
+ 
+    
+}
+.nav li a{
+    color:black;
+    font-size: 16px;
+    padding:5px 0px;
+    
+}
+
+
+a:link{
+    text-decoration:none;
+}
+/* mobile menu */
+.mobile-menu{
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    top: 80px;
+    right: 99px;
+    z-index: 2;
+}
+.mobile-menu-sidebar{
+    position: absolute;
+    padding: 30px;
+    background-color: #1B46C2;
+    color: white;
+    z-index: 1;
+    transition: transform 0.3s ease-in;
+}
+.mobile-menu-sidebar ul li{
+    row-gap: 10px;
+    list-style-type: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+.mobile-menu-sidebar ul{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.cross{
+
+    /* margin-right: 585px;
+    margin-top: -22px; */
+    color: white;
+    width: 18px;
+    height: 18px;
+}
+/* footer */
+footer{
+    padding: 100px 0 0px 0;
+    background-color: #1B46C2;
+
+}
+.footer-container{
+    display: flex;
+    column-gap: 40px;
+    color: rgba(255, 255, 255, 0.8)
+}
+.footer-1st-column{
+    width: 30%;
+}
+.footer-2nd-column{
+    width: 23%;
+}
+.footer-3rd-column{
+    width: 23%;
+}
+.footer-4th-column{
+    width: 23%;
+}
+.footer-logo{
+    font-size: 26px;
+    font-weight: 700;
+    color: white;
+}
+.footer-expert{
+    margin-top: 20px;
+    line-height: 30px;
+}
+.footer-heading{
+    font-size: 20px;
+    font-weight: 500;
+     color: white;
+     
+}
+.footer-menu{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+    list-style: none;
+    line-height: 35px;
+
+}
+.footer-menu li a{
+    color: white !important; ;
+}
+.footer-menu li {
+    color:white ;
+    font-size: 14px;
+}
+
+.copyright{
+    color: white;
+    margin-top: 50px;
+    padding-bottom: 30px;
+}
+.footer-social-icons{
+    width: 16px;
+    height: 16px;
+}
+.hero-section{
+    position: relative;
+    height: 650px;
+}
+.hero-section img{
+    position: absolute;
+   object-fit: cover;
+   height: 650px;
+   width: 100%;
+}
+.hero-section h2{
+    width: 40%;
+}
+.circle{
+    padding: 15px;
+    background: #1b4ec21f;
+    border-radius: 50%;
+
+}
+.featured-title{
+    align-items: baseline;
+}
+.featured-title p{
+    color:#64748B ;
+}
+.nav-link{
+padding:20px 30px !important;
+border-radius: 0px!important;
+color: #1E293B!important;
+border-bottom: 1px solid #DDE0E5!important ;
+
+}
+.nav-pills .nav-link.active{
+    background-color: #1B46C2!important;
+    color: white!important;
+}
+.nav-pills{
+    border-radius: 10px!important;
+}
+.category-block{
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #1B46C2;
+    color: white;
+}
+.product-home-title{
+    padding: 20px 0;
+}
+.add_to_wishlist img{
+    width: 16px!important;
+}
